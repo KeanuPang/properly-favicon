@@ -1,0 +1,27 @@
+{
+  "name": "properly-favicon",
+  "version": "0.1.0",
+  "description": "properly favicon serving middleware",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node_modules/.bin/ava"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "express",
+    "favicon",
+    "middleware"
+  ],
+  "author": "Keanu Pang <keanu.pang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-ava": "^4.2.2",
+    "supertest": "^3.0.0"
+  }
+}
