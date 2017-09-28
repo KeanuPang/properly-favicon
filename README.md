@@ -33,6 +33,12 @@ Finally, mount properly-favicon in your app:
 app.use(require('./properly-favicon')(mapping));
 ```
 
+## Installation
+
+```
+npm install properly-favicon
+```
+
 ## License
 
 MIT
