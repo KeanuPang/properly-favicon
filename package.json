@@ -1,11 +1,14 @@
 {
   "name": "properly-favicon",
   "version": "0.1.0",
-  "description": "properly favicon serving middleware",
+  "description": "middleware for handling favicons by routes",
+  "author": "Keanu Pang <keanu.pang@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/KeanuPang/properly-favicon",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "node_modules/.bin/ava"
+    "test": "node_modules/.bin/ava --reporter spec"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -15,8 +18,6 @@
     "favicon",
     "middleware"
   ],
-  "author": "Keanu Pang <keanu.pang@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "ava": "^0.22.0",
     "eslint": "^4.7.2",
