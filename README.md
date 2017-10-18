@@ -1,6 +1,6 @@
 # properly-favicon
 
-Node.js middleware for serving a favicons by routing.
+Node.js middleware for serving favicons by routing.
 
 ## Usage
 
